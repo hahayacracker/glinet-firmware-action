@@ -12,9 +12,6 @@ packages:
   - luci-compat
   - luci-app-ssr-plus
   - luci-theme-rosy-1806
-  - luci-theme-argon-2102
-  - luci-app-docker
-  - luci-app-familycloud
   - luci-app-netdata
   - luci-app-passwall
 
