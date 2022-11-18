@@ -4,10 +4,14 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name: argon
+    uri: https://github.com/jerrykuku/luci-theme-argon.git
+    branch: master
 packages:
   - luci-app-mwan3
   - luci-compat
   - luci-app-ssr-plus
+  - luci-theme-argon
 
 
 
