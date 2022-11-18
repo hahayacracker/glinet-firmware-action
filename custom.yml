@@ -7,11 +7,21 @@ feeds:
   - name: argon
     uri: https://github.com/jerrykuku/luci-theme-argon.git
     branch: master
+  - name: NueXini_Packages
+    uri: https://github.com/NueXini/NueXini_Packages.git
+    branch: main
 packages:
   - luci-app-mwan3
   - luci-compat
   - luci-app-ssr-plus
+  - luci-app-argon-config
   - luci-theme-argon
+  - luci-theme-rosy-1806
+  - luci-theme-argon-2102
+  - luci-app-docker
+  - luci-app-familycloud
+  - luci-app-netdata
+  - luci-app-passwall
 
 
 
