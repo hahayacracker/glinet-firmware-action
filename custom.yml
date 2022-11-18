@@ -11,11 +11,7 @@ packages:
   - luci-app-mwan3
   - luci-compat
   - luci-app-ssr-plus
-  - luci-theme-rosy-1806
   - luci-app-netdata
-  - luci-app-passwall
-
-
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
