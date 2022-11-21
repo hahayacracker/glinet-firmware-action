@@ -10,17 +10,18 @@ feeds:
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
 packages:
+  - default-setting
   - luci-app-mwan3
   - luci-compat
-  - luci-app-ssr-plus
-  - luci-app-netdata
   - dnsmasq-full
-  - luci-app-openclash
   - luci-theme-argon-2102
   - luci-app-argon-config
   - luci-app-ttyd
   - ttyd
   - iptables-mod-fullconenat
+  - luci-app-passwall
+  - luci-app-vssr
+  - luci-app-openclash
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
