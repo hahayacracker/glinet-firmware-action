@@ -1,6 +1,8 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
+  - name: NueXini
+    path: ../feeds_dir/NueXini
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
@@ -12,6 +14,13 @@ packages:
   - luci-compat
   - luci-app-ssr-plus
   - luci-app-netdata
+  - dnsmasq-full
+  - luci-app-openclash
+  - luci-theme-argon-2102
+  - luci-app-argon-config
+  - luci-app-ttyd
+  - ttyd
+  - iptables-mod-fullconenat
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
